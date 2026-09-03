@@ -1,0 +1,34 @@
+name: Home Depot Penny Radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 10 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test
+        run: python -m unittest -v
+      - name: Collect Home Depot through Scrape.do
+        env:
+          SCRAPEDO_TOKEN: ${{ secrets.SCRAPEDO_TOKEN }}
+        run: python collect_scrapedo_home_depot.py
+      - name: Analyze penny signals
+        run: python collect_home_depot_penny.py
+      - name: Publish updated feed
+        run: |
+          git config user.name "KAEL Radar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add home-depot-observations.json home-depot-history.json penny-radar.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update Home Depot Penny Radar feed"
+          git push
