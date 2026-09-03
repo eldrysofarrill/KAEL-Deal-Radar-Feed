@@ -1,6 +1,6 @@
 {
   "zipCode": "33189",
-  "storeIds": ["0207", "6976", "6306"],
+  "storeIds": ["0207"],
   "discoveryUrls": ["https://www.homedepot.com/s/clearance?NCNI-5"],
   "maxDiscoveredProductsPerStore": 12,
   "productUrls": [
