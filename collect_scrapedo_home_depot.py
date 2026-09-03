@@ -60,11 +60,11 @@ def _product_from_html(html: str, url: str, location_id: str):
     }
 
 
-def _fetch(token: str, target_url: str) -> str:
+def _fetch(token: str, target_url: str, render: bool = False) -> str:
     params = urllib.parse.urlencode({
         "token": token,
         "url": target_url,
-        "render": "false",
+        "render": "true" if render else "false",
         "super": "false",
         "geoCode": "US",
     })
@@ -112,7 +112,7 @@ def run(targets_path=TARGETS, output_path=OUTPUT):
         for discovery_url in discovery_urls:
             scoped_discovery = _with_store(discovery_url, location_id)
             try:
-                urls.extend(_discover_product_urls(_fetch(token, scoped_discovery), limit))
+                urls.extend(_discover_product_urls(_fetch(token, scoped_discovery, render=True), limit))
             except Exception as exc:
                 errors.append({"storeId": location_id, "url": scoped_discovery, "stage": "discovery", "error": str(exc)})
         urls = list(dict.fromkeys(urls))[:limit + len(configured_urls)]
