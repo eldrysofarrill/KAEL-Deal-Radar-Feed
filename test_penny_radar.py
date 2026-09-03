@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 from collect_home_depot_penny import classify, run
-from collect_scrapedo_home_depot import _product_from_html
+from collect_scrapedo_home_depot import _discover_product_urls, _product_from_html, _with_store
 
 
 class PennyRadarTests(unittest.TestCase):
@@ -27,6 +27,13 @@ class PennyRadarTests(unittest.TestCase):
         item = _product_from_html(html, "https://www.homedepot.com/p/x/123", "zip:33189")
         self.assertEqual(item["sku"], "1001")
         self.assertEqual(item["price"], 19.97)
+
+    def test_store_is_added_to_url(self):
+        self.assertIn("storeSelection=207", _with_store("https://www.homedepot.com/s/clearance?NCNI-5", "0207"))
+
+    def test_discovers_unique_product_links(self):
+        html = '<a href="/p/Test-One/123456789">one</a><a href="/p/Test-One/123456789">duplicate</a>'
+        self.assertEqual(_discover_product_urls(html, 5), ["https://www.homedepot.com/p/Test-One/123456789"])
 
     def test_incomplete_capture_never_marks_disappearance(self):
         with tempfile.TemporaryDirectory() as folder:
