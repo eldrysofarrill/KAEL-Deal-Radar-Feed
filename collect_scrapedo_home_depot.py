@@ -76,23 +76,55 @@ def _fetch(token: str, target_url: str) -> str:
         return response.read().decode("utf-8", errors="replace")
 
 
+def _with_store(url: str, store_id: str) -> str:
+    parts = urllib.parse.urlsplit(url)
+    query = dict(urllib.parse.parse_qsl(parts.query, keep_blank_values=True))
+    query["storeSelection"] = store_id.lstrip("0") or "0"
+    return urllib.parse.urlunsplit((parts.scheme, parts.netloc, parts.path, urllib.parse.urlencode(query), parts.fragment))
+
+
+def _discover_product_urls(html: str, limit: int):
+    found = []
+    for match in re.finditer(r'(?:https://www\.homedepot\.com)?(/p/[^"\'<>\\ ]+/\d{6,12})', unescape(html), re.I):
+        url = "https://www.homedepot.com" + match.group(1).split("?")[0]
+        if url not in found:
+            found.append(url)
+        if len(found) >= limit:
+            break
+    return found
+
+
 def run(targets_path=TARGETS, output_path=OUTPUT):
     token = os.environ.get("SCRAPEDO_TOKEN", "").strip()
     if not token:
         raise RuntimeError("SCRAPEDO_TOKEN is required")
     config = json.loads(Path(targets_path).read_text(encoding="utf-8"))
     zip_code = str(config.get("zipCode") or "33189").strip()
-    location_id = f"zip:{zip_code}"
-    urls = [str(x).strip() for x in config.get("productUrls", []) if str(x).strip()]
+    configured_urls = [str(x).strip() for x in config.get("productUrls", []) if str(x).strip()]
+    stores = [str(x).strip() for x in config.get("storeIds", []) if str(x).strip()] or [f"zip:{zip_code}"]
+    discovery_urls = [str(x).strip() for x in config.get("discoveryUrls", []) if str(x).strip()]
+    limit = max(1, min(int(config.get("maxDiscoveredProductsPerStore", 12)), 50))
     items, errors = [], []
-    for url in urls:
-        try:
-            items.append(_product_from_html(_fetch(token, url), url, location_id))
-        except Exception as exc:  # Preserve partial results and make failures visible.
-            errors.append({"url": url, "error": str(exc)})
+    attempted = 0
+    for store in stores:
+        location_id = store if store.startswith("zip:") else store.lstrip("0")
+        urls = list(configured_urls)
+        for discovery_url in discovery_urls:
+            scoped_discovery = _with_store(discovery_url, location_id)
+            try:
+                urls.extend(_discover_product_urls(_fetch(token, scoped_discovery), limit))
+            except Exception as exc:
+                errors.append({"storeId": location_id, "url": scoped_discovery, "stage": "discovery", "error": str(exc)})
+        urls = list(dict.fromkeys(urls))[:limit + len(configured_urls)]
+        for url in urls:
+            attempted += 1
+            try:
+                items.append(_product_from_html(_fetch(token, _with_store(url, location_id)), url, location_id))
+            except Exception as exc:
+                errors.append({"storeId": location_id, "url": url, "stage": "product", "error": str(exc)})
     payload = {
-        "captureComplete": bool(urls) and not errors,
-        "capturedStoreIds": [location_id] if urls else [],
+        "captureComplete": attempted > 0 and not errors,
+        "capturedStoreIds": [x if x.startswith("zip:") else x.lstrip("0") for x in stores] if attempted else [],
         "zipCode": zip_code,
         "source": "scrape.do",
         "capturedAt": datetime.now(timezone.utc).isoformat(),
