@@ -2,6 +2,13 @@ name: Home Depot Penny Radar
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "home-depot-targets.json"
+      - "collect_scrapedo_home_depot.py"
+      - "collect_home_depot_penny.py"
+      - ".github/workflows/home-depot-penny-radar.yml"
   schedule:
     - cron: "17 10 * * *"
 
