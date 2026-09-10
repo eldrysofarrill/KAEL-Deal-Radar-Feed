@@ -111,6 +111,21 @@
           "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
           "observedAt": "2026-09-09T14:34:27.420500+00:00",
           "source": "scrape.do"
+        },
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1006104779",
+          "internetNumber": "315976374",
+          "name": "RIDGID 18V Brushless Cordless 6-1/2 in. Circular Saw (Tool Only) R8656B",
+          "brand": "RIDGID",
+          "price": 149,
+          "regularPrice": 149,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
+          "observedAt": "2026-09-10T14:25:09.799171+00:00",
+          "source": "scrape.do"
         }
       ],
       "latest": {
@@ -125,7 +140,7 @@
         "stock": null,
         "availability": null,
         "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
-        "observedAt": "2026-09-09T14:34:27.420500+00:00",
+        "observedAt": "2026-09-10T14:25:09.799171+00:00",
         "source": "scrape.do"
       }
     },
@@ -198,5 +213,5 @@
       }
     }
   },
-  "updatedAt": "2026-09-09T14:34:27.475462+00:00"
+  "updatedAt": "2026-09-10T14:25:09.849995+00:00"
 }
