@@ -5,7 +5,7 @@
   ],
   "zipCode": "33189",
   "source": "scrape.do",
-  "capturedAt": "2026-09-11T14:24:52.994242+00:00",
+  "capturedAt": "2026-09-12T13:36:27.499740+00:00",
   "items": [
     {
       "storeId": "207",
@@ -19,7 +19,7 @@
       "stock": null,
       "availability": null,
       "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
-      "observedAt": "2026-09-11T14:24:36.284791+00:00",
+      "observedAt": "2026-09-12T13:35:51.459202+00:00",
       "source": "scrape.do"
     },
     {
@@ -29,12 +29,12 @@
       "internetNumber": "302786603",
       "name": "Whirlpool 21.4 cu. ft. Side by Side Refrigerator in Fingerprint Resistant Stainless Finish WRS321SDHZ",
       "brand": "Whirlpool",
-      "price": 1299,
-      "regularPrice": 1299,
+      "price": 1449,
+      "regularPrice": 1449,
       "stock": null,
       "availability": null,
       "productUrl": "https://www.homedepot.com/p/Whirlpool-21-4-cu-ft-Side-by-Side-Refrigerator-in-Fingerprint-Resistant-Stainless-Finish-WRS321SDHZ/302786603",
-      "observedAt": "2026-09-11T14:24:38.963133+00:00",
+      "observedAt": "2026-09-12T13:35:58.535998+00:00",
       "source": "scrape.do"
     },
     {
@@ -49,7 +49,7 @@
       "stock": null,
       "availability": null,
       "productUrl": "https://www.homedepot.com/p/Amana-30-in-4-Elements-Freestanding-Electric-Range-in-White-with-Extra-Large-Oven-Window-AFCS2530TW/341022716",
-      "observedAt": "2026-09-11T14:24:44.446158+00:00",
+      "observedAt": "2026-09-12T13:36:05.226774+00:00",
       "source": "scrape.do"
     },
     {
@@ -59,12 +59,12 @@
       "internetNumber": "330817229",
       "name": "Whirlpool 24 in. Top Control Built-In Tall Tub 41 dBA Dishwasher in Fingerprint Resistant Stainless Steel, 3rd Rack, Eco Series WDPS7024RZ",
       "brand": "Whirlpool",
-      "price": 629,
-      "regularPrice": 629,
+      "price": 649,
+      "regularPrice": 649,
       "stock": null,
       "availability": null,
       "productUrl": "https://www.homedepot.com/p/Whirlpool-24-in-Top-Control-Built-In-Tall-Tub-41-dBA-Dishwasher-in-Fingerprint-Resistant-Stainless-Steel-3rd-Rack-Eco-Series-WDPS7024RZ/330817229",
-      "observedAt": "2026-09-11T14:24:49.751239+00:00",
+      "observedAt": "2026-09-12T13:36:19.456992+00:00",
       "source": "scrape.do"
     },
     {
@@ -79,7 +79,7 @@
       "stock": null,
       "availability": null,
       "productUrl": "https://www.homedepot.com/p/LG-5-0-cu-ft-Ultra-Large-Capacity-Top-Load-Washer-with-Cold-Wash-and-6-Motion-Technology-in-Onyx-Black-WT7150CX/341285413",
-      "observedAt": "2026-09-11T14:24:52.994218+00:00",
+      "observedAt": "2026-09-12T13:36:27.499715+00:00",
       "source": "scrape.do"
     }
   ],
