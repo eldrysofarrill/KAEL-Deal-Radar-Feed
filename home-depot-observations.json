@@ -5,7 +5,7 @@
   ],
   "zipCode": "33189",
   "source": "scrape.do",
-  "capturedAt": "2026-09-13T14:21:18.931390+00:00",
+  "capturedAt": "2026-09-14T16:23:09.115742+00:00",
   "items": [
     {
       "storeId": "207",
@@ -19,7 +19,7 @@
       "stock": null,
       "availability": null,
       "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
-      "observedAt": "2026-09-13T14:21:00.131913+00:00",
+      "observedAt": "2026-09-14T16:21:58.108921+00:00",
       "source": "scrape.do"
     },
     {
@@ -34,7 +34,7 @@
       "stock": null,
       "availability": null,
       "productUrl": "https://www.homedepot.com/p/Whirlpool-21-4-cu-ft-Side-by-Side-Refrigerator-in-Fingerprint-Resistant-Stainless-Finish-WRS321SDHZ/302786603",
-      "observedAt": "2026-09-13T14:21:03.489784+00:00",
+      "observedAt": "2026-09-14T16:22:13.890755+00:00",
       "source": "scrape.do"
     },
     {
@@ -49,7 +49,7 @@
       "stock": null,
       "availability": null,
       "productUrl": "https://www.homedepot.com/p/Amana-30-in-4-Elements-Freestanding-Electric-Range-in-White-with-Extra-Large-Oven-Window-AFCS2530TW/341022716",
-      "observedAt": "2026-09-13T14:21:07.776804+00:00",
+      "observedAt": "2026-09-14T16:22:25.936588+00:00",
       "source": "scrape.do"
     },
     {
@@ -64,7 +64,7 @@
       "stock": null,
       "availability": null,
       "productUrl": "https://www.homedepot.com/p/Whirlpool-24-in-Top-Control-Built-In-Tall-Tub-41-dBA-Dishwasher-in-Fingerprint-Resistant-Stainless-Steel-3rd-Rack-Eco-Series-WDPS7024RZ/330817229",
-      "observedAt": "2026-09-13T14:21:13.480164+00:00",
+      "observedAt": "2026-09-14T16:22:49.481482+00:00",
       "source": "scrape.do"
     },
     {
@@ -79,7 +79,7 @@
       "stock": null,
       "availability": null,
       "productUrl": "https://www.homedepot.com/p/LG-5-0-cu-ft-Ultra-Large-Capacity-Top-Load-Washer-with-Cold-Wash-and-6-Motion-Technology-in-Onyx-Black-WT7150CX/341285413",
-      "observedAt": "2026-09-13T14:21:18.931365+00:00",
+      "observedAt": "2026-09-14T16:23:09.115715+00:00",
       "source": "scrape.do"
     }
   ],
