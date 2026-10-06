@@ -49,21 +49,6 @@
           "stock": null,
           "availability": null,
           "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
-          "observedAt": "2026-09-03T12:56:14.762970+00:00",
-          "source": "scrape.do"
-        },
-        {
-          "storeId": "207",
-          "zipCode": "207",
-          "sku": "1006104779",
-          "internetNumber": "315976374",
-          "name": "RIDGID 18V Brushless Cordless 6-1/2 in. Circular Saw (Tool Only) R8656B",
-          "brand": "RIDGID",
-          "price": 149,
-          "regularPrice": 149,
-          "stock": null,
-          "availability": null,
-          "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
           "observedAt": "2026-09-04T14:20:22.994880+00:00",
           "source": "scrape.do"
         },
@@ -486,6 +471,21 @@
           "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
           "observedAt": "2026-10-05T19:16:54.704057+00:00",
           "source": "scrape.do"
+        },
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1006104779",
+          "internetNumber": "315976374",
+          "name": "RIDGID 18V Brushless Cordless 6-1/2 in. Circular Saw (Tool Only) R8656B",
+          "brand": "RIDGID",
+          "price": 149,
+          "regularPrice": 149,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
+          "observedAt": "2026-10-06T16:47:11.321816+00:00",
+          "source": "scrape.do"
         }
       ],
       "latest": {
@@ -500,7 +500,7 @@
         "stock": null,
         "availability": null,
         "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
-        "observedAt": "2026-10-05T19:16:54.704057+00:00",
+        "observedAt": "2026-10-06T16:47:11.321816+00:00",
         "source": "scrape.do"
       }
     },
@@ -1009,5 +1009,5 @@
       }
     }
   },
-  "updatedAt": "2026-10-05T19:16:54.751407+00:00"
+  "updatedAt": "2026-10-06T16:47:11.375468+00:00"
 }
