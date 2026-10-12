@@ -3,7 +3,7 @@
   "experimental": true,
   "retailer": "Home Depot",
   "engineVersion": "1.0-experimental",
-  "updatedAt": "2026-10-11T16:18:41.069854+00:00",
+  "updatedAt": "2026-10-12T19:47:48.787808+00:00",
   "captureComplete": true,
   "count": 1,
   "items": [
@@ -19,7 +19,7 @@
       "stock": null,
       "availability": null,
       "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
-      "observedAt": "2026-10-11T16:18:41.014863+00:00",
+      "observedAt": "2026-10-12T19:47:48.726701+00:00",
       "source": "scrape.do",
       "retailer": "Home Depot",
       "signalStatus": "WATCH",
