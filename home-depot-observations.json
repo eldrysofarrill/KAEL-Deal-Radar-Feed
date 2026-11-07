@@ -5,19 +5,29 @@
   ],
   "zipCode": "33189",
   "source": "scrape.do",
-  "capturedAt": "2026-11-06T17:29:44.373452+00:00",
-  "items": [],
+  "capturedAt": "2026-11-07T16:24:55.008714+00:00",
+  "items": [
+    {
+      "storeId": "207",
+      "zipCode": "207",
+      "sku": "1006104779",
+      "internetNumber": "315976374",
+      "name": "RIDGID 18V Brushless Cordless 6-1/2 in. Circular Saw (Tool Only) R8656B",
+      "brand": "RIDGID",
+      "price": 149,
+      "regularPrice": 149,
+      "stock": null,
+      "availability": null,
+      "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
+      "observedAt": "2026-11-07T16:24:55.008553+00:00",
+      "source": "scrape.do"
+    }
+  ],
   "errors": [
     {
       "storeId": "207",
       "url": "https://www.homedepot.com/s/clearance?NCNI-5=&storeSelection=207",
       "stage": "discovery",
-      "error": "HTTP Error 502: Bad Gateway"
-    },
-    {
-      "storeId": "207",
-      "url": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
-      "stage": "product",
       "error": "HTTP Error 502: Bad Gateway"
     }
   ]
