@@ -49,21 +49,6 @@
           "stock": null,
           "availability": null,
           "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
-          "observedAt": "2026-10-06T16:47:11.321816+00:00",
-          "source": "scrape.do"
-        },
-        {
-          "storeId": "207",
-          "zipCode": "207",
-          "sku": "1006104779",
-          "internetNumber": "315976374",
-          "name": "RIDGID 18V Brushless Cordless 6-1/2 in. Circular Saw (Tool Only) R8656B",
-          "brand": "RIDGID",
-          "price": 149,
-          "regularPrice": 149,
-          "stock": null,
-          "availability": null,
-          "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
           "observedAt": "2026-10-07T17:25:06.926891+00:00",
           "source": "scrape.do"
         },
@@ -486,6 +471,21 @@
           "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
           "observedAt": "2026-11-07T16:24:55.008553+00:00",
           "source": "scrape.do"
+        },
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1006104779",
+          "internetNumber": "315976374",
+          "name": "RIDGID 18V Brushless Cordless 6-1/2 in. Circular Saw (Tool Only) R8656B",
+          "brand": "RIDGID",
+          "price": 149,
+          "regularPrice": 149,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
+          "observedAt": "2026-11-09T20:43:07.637283+00:00",
+          "source": "scrape.do"
         }
       ],
       "latest": {
@@ -500,7 +500,7 @@
         "stock": null,
         "availability": null,
         "productUrl": "https://www.homedepot.com/p/RIDGID-18V-SubCompact-Brushless-Cordless-6-1-2-in-Circular-Saw-Tool-Only-R8656B/315976374",
-        "observedAt": "2026-11-07T16:24:55.008553+00:00",
+        "observedAt": "2026-11-09T20:43:07.637283+00:00",
         "source": "scrape.do"
       }
     },
@@ -1007,7 +1007,415 @@
         "observedAt": "2026-09-16T14:58:13.421004+00:00",
         "source": "scrape.do"
       }
+    },
+    "207|1007916307": {
+      "history": [
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1007916307",
+          "internetNumber": "320379720",
+          "name": "Milwaukee M18 18-Volt Lithium-Ion XC Starter Kit with Two 5.0Ah Batteries and Charger 48-59-1852B",
+          "brand": "Milwaukee",
+          "price": 199,
+          "regularPrice": 199,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/Milwaukee-M18-18-Volt-Lithium-Ion-XC-Starter-Kit-with-Two-5-0Ah-Batteries-and-Charger-48-59-1852B/320379720",
+          "observedAt": "2026-11-09T20:43:13.583172+00:00",
+          "source": "scrape.do"
+        }
+      ],
+      "latest": {
+        "storeId": "207",
+        "zipCode": "207",
+        "sku": "1007916307",
+        "internetNumber": "320379720",
+        "name": "Milwaukee M18 18-Volt Lithium-Ion XC Starter Kit with Two 5.0Ah Batteries and Charger 48-59-1852B",
+        "brand": "Milwaukee",
+        "price": 199,
+        "regularPrice": 199,
+        "stock": null,
+        "availability": null,
+        "productUrl": "https://www.homedepot.com/p/Milwaukee-M18-18-Volt-Lithium-Ion-XC-Starter-Kit-with-Two-5-0Ah-Batteries-and-Charger-48-59-1852B/320379720",
+        "observedAt": "2026-11-09T20:43:13.583172+00:00",
+        "source": "scrape.do"
+      }
+    },
+    "207|1014211404": {
+      "history": [
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1014211404",
+          "internetNumber": "335644555",
+          "name": "Milwaukee FASTBACK 6-in-1 Folding Utility Knives with General Purpose Blade (2-Pack) 48-22-1505D",
+          "brand": "Milwaukee",
+          "price": 19.97,
+          "regularPrice": 19.97,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/Milwaukee-FASTBACK-6-in-1-Folding-Utility-Knives-with-General-Purpose-Blade-2-Pack-48-22-1505D/335644555",
+          "observedAt": "2026-11-09T20:43:28.149874+00:00",
+          "source": "scrape.do"
+        }
+      ],
+      "latest": {
+        "storeId": "207",
+        "zipCode": "207",
+        "sku": "1014211404",
+        "internetNumber": "335644555",
+        "name": "Milwaukee FASTBACK 6-in-1 Folding Utility Knives with General Purpose Blade (2-Pack) 48-22-1505D",
+        "brand": "Milwaukee",
+        "price": 19.97,
+        "regularPrice": 19.97,
+        "stock": null,
+        "availability": null,
+        "productUrl": "https://www.homedepot.com/p/Milwaukee-FASTBACK-6-in-1-Folding-Utility-Knives-with-General-Purpose-Blade-2-Pack-48-22-1505D/335644555",
+        "observedAt": "2026-11-09T20:43:28.149874+00:00",
+        "source": "scrape.do"
+      }
+    },
+    "207|1011701349": {
+      "history": [
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1011701349",
+          "internetNumber": "330180161",
+          "name": "Milwaukee 25 ft. Compact Magnetic Tape Measure (2-Pack) 48-22-1025MG",
+          "brand": "Milwaukee",
+          "price": 19.97,
+          "regularPrice": 19.97,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/Milwaukee-25-ft-Compact-Magnetic-Tape-Measure-2-Pack-48-22-1025MG/330180161",
+          "observedAt": "2026-11-09T20:43:37.053495+00:00",
+          "source": "scrape.do"
+        }
+      ],
+      "latest": {
+        "storeId": "207",
+        "zipCode": "207",
+        "sku": "1011701349",
+        "internetNumber": "330180161",
+        "name": "Milwaukee 25 ft. Compact Magnetic Tape Measure (2-Pack) 48-22-1025MG",
+        "brand": "Milwaukee",
+        "price": 19.97,
+        "regularPrice": 19.97,
+        "stock": null,
+        "availability": null,
+        "productUrl": "https://www.homedepot.com/p/Milwaukee-25-ft-Compact-Magnetic-Tape-Measure-2-Pack-48-22-1025MG/330180161",
+        "observedAt": "2026-11-09T20:43:37.053495+00:00",
+        "source": "scrape.do"
+      }
+    },
+    "207|1010152275": {
+      "history": [
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1010152275",
+          "internetNumber": "326514175",
+          "name": "Milwaukee M18 18-Volt Lithium-Ion Cordless Inflator with (2) 5.0Ah Batteries and Charger 2848-20-48-59-1852B",
+          "brand": "Milwaukee",
+          "price": 199,
+          "regularPrice": 199,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/Milwaukee-M18-18-Volt-Lithium-Ion-Cordless-Inflator-with-2-5-0Ah-Batteries-and-Charger-2848-20-48-59-1852B/326514175",
+          "observedAt": "2026-11-09T20:43:46.548788+00:00",
+          "source": "scrape.do"
+        }
+      ],
+      "latest": {
+        "storeId": "207",
+        "zipCode": "207",
+        "sku": "1010152275",
+        "internetNumber": "326514175",
+        "name": "Milwaukee M18 18-Volt Lithium-Ion Cordless Inflator with (2) 5.0Ah Batteries and Charger 2848-20-48-59-1852B",
+        "brand": "Milwaukee",
+        "price": 199,
+        "regularPrice": 199,
+        "stock": null,
+        "availability": null,
+        "productUrl": "https://www.homedepot.com/p/Milwaukee-M18-18-Volt-Lithium-Ion-Cordless-Inflator-with-2-5-0Ah-Batteries-and-Charger-2848-20-48-59-1852B/326514175",
+        "observedAt": "2026-11-09T20:43:46.548788+00:00",
+        "source": "scrape.do"
+      }
+    },
+    "207|1012535289": {
+      "history": [
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1012535289",
+          "internetNumber": "331592714",
+          "name": "Milwaukee M18 FUEL 120 MPH 500 CFM 18V Brushless Cordless Battery Powered Leaf Blower with Two 5.0Ah Batteries and Charger 3017-20-48-59-1852B",
+          "brand": "Milwaukee",
+          "price": 199,
+          "regularPrice": 199,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/Milwaukee-M18-FUEL-120-MPH-500-CFM-18V-Brushless-Cordless-Battery-Powered-Leaf-Blower-with-Two-5-0Ah-Batteries-and-Charger-3017-20-48-59-1852B/331592714",
+          "observedAt": "2026-11-09T20:43:51.627207+00:00",
+          "source": "scrape.do"
+        }
+      ],
+      "latest": {
+        "storeId": "207",
+        "zipCode": "207",
+        "sku": "1012535289",
+        "internetNumber": "331592714",
+        "name": "Milwaukee M18 FUEL 120 MPH 500 CFM 18V Brushless Cordless Battery Powered Leaf Blower with Two 5.0Ah Batteries and Charger 3017-20-48-59-1852B",
+        "brand": "Milwaukee",
+        "price": 199,
+        "regularPrice": 199,
+        "stock": null,
+        "availability": null,
+        "productUrl": "https://www.homedepot.com/p/Milwaukee-M18-FUEL-120-MPH-500-CFM-18V-Brushless-Cordless-Battery-Powered-Leaf-Blower-with-Two-5-0Ah-Batteries-and-Charger-3017-20-48-59-1852B/331592714",
+        "observedAt": "2026-11-09T20:43:51.627207+00:00",
+        "source": "scrape.do"
+      }
+    },
+    "207|1006549710": {
+      "history": [
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1006549710",
+          "internetNumber": "317577871",
+          "name": "Milwaukee M12 12-Volt Lithium-Ion XC Extended Capacity 4.0 Ah Battery Pack (2-Pack) 48-11-2442",
+          "brand": "Milwaukee",
+          "price": 79,
+          "regularPrice": 79,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/Milwaukee-M12-12-Volt-Lithium-Ion-XC-Extended-Capacity-4-0-Ah-Battery-Pack-2-Pack-48-11-2442/317577871",
+          "observedAt": "2026-11-09T20:43:55.113502+00:00",
+          "source": "scrape.do"
+        }
+      ],
+      "latest": {
+        "storeId": "207",
+        "zipCode": "207",
+        "sku": "1006549710",
+        "internetNumber": "317577871",
+        "name": "Milwaukee M12 12-Volt Lithium-Ion XC Extended Capacity 4.0 Ah Battery Pack (2-Pack) 48-11-2442",
+        "brand": "Milwaukee",
+        "price": 79,
+        "regularPrice": 79,
+        "stock": null,
+        "availability": null,
+        "productUrl": "https://www.homedepot.com/p/Milwaukee-M12-12-Volt-Lithium-Ion-XC-Extended-Capacity-4-0-Ah-Battery-Pack-2-Pack-48-11-2442/317577871",
+        "observedAt": "2026-11-09T20:43:55.113502+00:00",
+        "source": "scrape.do"
+      }
+    },
+    "207|553471": {
+      "history": [
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "553471",
+          "internetNumber": "100232088",
+          "name": "Energizer MAX AA Batteries (36-Pack), Double A Alkaline Batteries E91SBP36H",
+          "brand": "Energizer",
+          "price": 17.67,
+          "regularPrice": 17.67,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/Energizer-MAX-AA-Batteries-36-Pack-Double-A-Alkaline-Batteries-E91SBP36H/100232088",
+          "observedAt": "2026-11-09T20:44:16.452196+00:00",
+          "source": "scrape.do"
+        }
+      ],
+      "latest": {
+        "storeId": "207",
+        "zipCode": "207",
+        "sku": "553471",
+        "internetNumber": "100232088",
+        "name": "Energizer MAX AA Batteries (36-Pack), Double A Alkaline Batteries E91SBP36H",
+        "brand": "Energizer",
+        "price": 17.67,
+        "regularPrice": 17.67,
+        "stock": null,
+        "availability": null,
+        "productUrl": "https://www.homedepot.com/p/Energizer-MAX-AA-Batteries-36-Pack-Double-A-Alkaline-Batteries-E91SBP36H/100232088",
+        "observedAt": "2026-11-09T20:44:16.452196+00:00",
+        "source": "scrape.do"
+      }
+    },
+    "207|1010452032": {
+      "history": [
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1010452032",
+          "internetNumber": "327406129",
+          "name": "RYOBI ONE+ 18V Cordless High Pressure Inflator (Tool Only) PCL001B",
+          "brand": "RYOBI",
+          "price": 24.97,
+          "regularPrice": 24.97,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/RYOBI-ONE-18V-Cordless-High-Pressure-Inflator-Tool-Only-PCL001B/327406129",
+          "observedAt": "2026-11-09T20:44:36.514479+00:00",
+          "source": "scrape.do"
+        }
+      ],
+      "latest": {
+        "storeId": "207",
+        "zipCode": "207",
+        "sku": "1010452032",
+        "internetNumber": "327406129",
+        "name": "RYOBI ONE+ 18V Cordless High Pressure Inflator (Tool Only) PCL001B",
+        "brand": "RYOBI",
+        "price": 24.97,
+        "regularPrice": 24.97,
+        "stock": null,
+        "availability": null,
+        "productUrl": "https://www.homedepot.com/p/RYOBI-ONE-18V-Cordless-High-Pressure-Inflator-Tool-Only-PCL001B/327406129",
+        "observedAt": "2026-11-09T20:44:36.514479+00:00",
+        "source": "scrape.do"
+      }
+    },
+    "207|1012627561": {
+      "history": [
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1012627561",
+          "internetNumber": "331594502",
+          "name": "Milwaukee M18 18V Lithium-Ion REDLITHIUM FORGE HD 12.0 Ah Battery Pack w/M18 REDLITHIUM FORGE XC 8.0 Ah Battery Pack 48-11-1813-48-11-1881",
+          "brand": "Milwaukee",
+          "price": 279,
+          "regularPrice": 279,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/Milwaukee-M18-18V-Lithium-Ion-REDLITHIUM-FORGE-HD-12-0-Ah-Battery-Pack-w-M18-REDLITHIUM-FORGE-XC-8-0-Ah-Battery-Pack-48-11-1813-48-11-1881/331594502",
+          "observedAt": "2026-11-09T20:44:41.206368+00:00",
+          "source": "scrape.do"
+        }
+      ],
+      "latest": {
+        "storeId": "207",
+        "zipCode": "207",
+        "sku": "1012627561",
+        "internetNumber": "331594502",
+        "name": "Milwaukee M18 18V Lithium-Ion REDLITHIUM FORGE HD 12.0 Ah Battery Pack w/M18 REDLITHIUM FORGE XC 8.0 Ah Battery Pack 48-11-1813-48-11-1881",
+        "brand": "Milwaukee",
+        "price": 279,
+        "regularPrice": 279,
+        "stock": null,
+        "availability": null,
+        "productUrl": "https://www.homedepot.com/p/Milwaukee-M18-18V-Lithium-Ion-REDLITHIUM-FORGE-HD-12-0-Ah-Battery-Pack-w-M18-REDLITHIUM-FORGE-XC-8-0-Ah-Battery-Pack-48-11-1813-48-11-1881/331594502",
+        "observedAt": "2026-11-09T20:44:41.206368+00:00",
+        "source": "scrape.do"
+      }
+    },
+    "207|1011575632": {
+      "history": [
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1011575632",
+          "internetNumber": "330035447",
+          "name": "Milwaukee PACKOUT 22 in. Rolling Tool Box, 22 in. Large Tool Box and 22 in. Medium Tool Box ProSystem Low Profile Handle 48-22-8401",
+          "brand": "Milwaukee",
+          "price": 319,
+          "regularPrice": 319,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/Milwaukee-PACKOUT-22-in-Rolling-Tool-Box-22-in-Large-Tool-Box-and-22-in-Medium-Tool-Box-ProSystem-Low-Profile-Handle-48-22-8401/330035447",
+          "observedAt": "2026-11-09T20:44:53.113756+00:00",
+          "source": "scrape.do"
+        }
+      ],
+      "latest": {
+        "storeId": "207",
+        "zipCode": "207",
+        "sku": "1011575632",
+        "internetNumber": "330035447",
+        "name": "Milwaukee PACKOUT 22 in. Rolling Tool Box, 22 in. Large Tool Box and 22 in. Medium Tool Box ProSystem Low Profile Handle 48-22-8401",
+        "brand": "Milwaukee",
+        "price": 319,
+        "regularPrice": 319,
+        "stock": null,
+        "availability": null,
+        "productUrl": "https://www.homedepot.com/p/Milwaukee-PACKOUT-22-in-Rolling-Tool-Box-22-in-Large-Tool-Box-and-22-in-Medium-Tool-Box-ProSystem-Low-Profile-Handle-48-22-8401/330035447",
+        "observedAt": "2026-11-09T20:44:53.113756+00:00",
+        "source": "scrape.do"
+      }
+    },
+    "207|1014018933": {
+      "history": [
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1014018933",
+          "internetNumber": "335487109",
+          "name": "RYOBI ONE+ 18V Lithium Starter Kit with (2) 4 Ah Batteries and 2A Charger PSK1210",
+          "brand": "RYOBI",
+          "price": 129,
+          "regularPrice": 129,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/RYOBI-ONE-18V-Lithium-Starter-Kit-with-2-4-Ah-Batteries-and-2A-Charger-PSK1210/335487109",
+          "observedAt": "2026-11-09T20:44:59.532775+00:00",
+          "source": "scrape.do"
+        }
+      ],
+      "latest": {
+        "storeId": "207",
+        "zipCode": "207",
+        "sku": "1014018933",
+        "internetNumber": "335487109",
+        "name": "RYOBI ONE+ 18V Lithium Starter Kit with (2) 4 Ah Batteries and 2A Charger PSK1210",
+        "brand": "RYOBI",
+        "price": 129,
+        "regularPrice": 129,
+        "stock": null,
+        "availability": null,
+        "productUrl": "https://www.homedepot.com/p/RYOBI-ONE-18V-Lithium-Starter-Kit-with-2-4-Ah-Batteries-and-2A-Charger-PSK1210/335487109",
+        "observedAt": "2026-11-09T20:44:59.532775+00:00",
+        "source": "scrape.do"
+      }
+    },
+    "207|1005931455": {
+      "history": [
+        {
+          "storeId": "207",
+          "zipCode": "207",
+          "sku": "1005931455",
+          "internetNumber": "315112817",
+          "name": "RYOBI ONE+ 18V Lithium 4.0 Ah Battery (2-Pack) PBP2004",
+          "brand": "RYOBI",
+          "price": 99,
+          "regularPrice": 99,
+          "stock": null,
+          "availability": null,
+          "productUrl": "https://www.homedepot.com/p/RYOBI-ONE-18V-Lithium-4-0-Ah-Battery-2-Pack-PBP2004/315112817",
+          "observedAt": "2026-11-09T20:45:18.054029+00:00",
+          "source": "scrape.do"
+        }
+      ],
+      "latest": {
+        "storeId": "207",
+        "zipCode": "207",
+        "sku": "1005931455",
+        "internetNumber": "315112817",
+        "name": "RYOBI ONE+ 18V Lithium 4.0 Ah Battery (2-Pack) PBP2004",
+        "brand": "RYOBI",
+        "price": 99,
+        "regularPrice": 99,
+        "stock": null,
+        "availability": null,
+        "productUrl": "https://www.homedepot.com/p/RYOBI-ONE-18V-Lithium-4-0-Ah-Battery-2-Pack-PBP2004/315112817",
+        "observedAt": "2026-11-09T20:45:18.054029+00:00",
+        "source": "scrape.do"
+      }
     }
   },
-  "updatedAt": "2026-11-08T16:40:47.307987+00:00"
+  "updatedAt": "2026-11-09T20:45:18.097185+00:00"
 }
